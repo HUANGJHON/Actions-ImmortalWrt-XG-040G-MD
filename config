@@ -344,6 +344,9 @@ CONFIG_KERNEL_PREEMPT_NONE=y
 # CONFIG_KERNEL_PREEMPT_RT is not set
 # end of Kernel build options
 
+CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_adguardhome=y
+
 #
 # Package build options
 #
