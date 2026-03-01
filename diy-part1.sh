@@ -12,3 +12,8 @@
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+git clone https://github.com/kenzok8/openwrt-packages package/small
+
+sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+
+sed -i 's/ImmortalWrt/XG-040G-MD/g' package/base-files/files/bin/config_generate
