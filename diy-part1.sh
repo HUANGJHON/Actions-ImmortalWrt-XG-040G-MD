@@ -12,7 +12,7 @@
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-git clone https://github.com/kenzok8/openwrt-packages package/small
+git clone https://github.com/OneNAS-space/luci-app-adguardhome package/small
 
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
